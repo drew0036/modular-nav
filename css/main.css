@@ -16,3 +16,56 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-dark {
+  background-color: #e2e2e2;
+}
+
+a {
+  color: #0074d9;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
