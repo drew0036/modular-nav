@@ -30,6 +30,12 @@ a {
   color: #0074d9;
 }
 
+a:hover {
+  background-color: #0074d9;
+  border-color: #0074d9;
+  color: #fff;
+}
+
 .masthead {
   text-align: center;
 }
@@ -51,21 +57,18 @@ a {
 
 .current {
   background-color: #0074d9;
+  border-color: #0074d9;
   color: #fff;
-}
-
-@media only screen and (min-width: 25em) {
-
-}
-
-@media only screen and (min-width: 38em) {
-
 }
 
 @media only screen and (min-width: 60em) {
 
-}
+  nav {
+    text-align: right;
+  }
 
-@media only screen and (min-width: 90em) {
+  h1 {
+    text-align: left;
+  }
 
 }
